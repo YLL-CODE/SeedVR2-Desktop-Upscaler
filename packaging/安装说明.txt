@@ -1,0 +1,22 @@
+SeedVR2 图片放大工具 1.1.0（Windows x64 标准安装版）
+
+安装：保持 `SeedVR2-Setup-1.1.0.exe` 和全部 `.bin` 分卷在同一目录，双击 EXE，选择简体中文或 English，再按安装向导选择路径和快捷方式。
+启动：使用桌面或开始菜单中的“SeedVR2 图片放大工具”。
+卸载：在 Windows“已安装的应用”中卸载，或使用开始菜单中的卸载快捷方式。
+
+语言：首次启动跟随安装向导/Windows UI 语言；之后可在主界面右上角使用“中文 / EN”即时切换，选择会自动保存。
+
+运行要求：
+- Windows 10/11 x64
+- NVIDIA 显卡和兼容 CUDA 13.0 的驱动
+- 建议安装在固态硬盘，安装目录至少预留 15 GiB 可用空间
+- 当前仅在 RTX 4070 Ti SUPER 16GB 上完成真实验证
+
+重要提示：
+- AI 放大可能重绘文字、Logo、人脸和产品细节，请保留原图并检查结果。
+- 本安装包不包含 ComfyUI，也不会安装或修改 ComfyUI。
+- 内置 GGUF 与 VAE 模型采用 Apache-2.0，来源和校验值见安装目录 `THIRD_PARTY_NOTICES.md`。
+- 安装包未使用代码签名证书，Windows 可能显示 SmartScreen 警告。
+- `SeedVR2-Setup-1.1.0-*.bin` 是完整安装数据分卷，不能单独移动、改名或遗漏。
+
+本项目许可证见安装目录 `LICENSE`；SeedVR2 与其他组件的来源和许可证见 `THIRD_PARTY_NOTICES.md`。

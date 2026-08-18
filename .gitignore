@@ -1,0 +1,22 @@
+# Large local runtime and model payloads
+runtime/
+models/SEEDVR2/*.gguf
+models/SEEDVR2/*.safetensors
+.downloads/
+.release-build/
+.setup-build/
+.iss-smoke-*/
+dist/
+
+# Generated tasks and validation output
+output/
+.tmp/
+*.log
+**/__pycache__/
+*.pyc
+
+# IDE and operating-system files
+.vs/
+.vscode/
+Thumbs.db
+.DS_Store

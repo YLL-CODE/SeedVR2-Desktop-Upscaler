@@ -1,0 +1,23 @@
+SeedVR2 Codex 开发续接包
+
+用途：在用户本人或内部可信的另一台 Windows 电脑上继续开发 SeedVR2 独立放大工具。
+
+准备：
+1. 先安装对应版本的 SeedVR2 完整基础安装包。
+2. 在目标电脑安装并登录 Codex。
+3. 保持本续接包内所有文件在同一目录。
+
+一键建立开发环境：
+1. 双击 Setup-SeedVR2-Dev.cmd。
+2. 默认开发目录为“文档\SeedVR2 Development”。
+3. 完成后在 Codex 中打开该开发目录。
+4. Codex 会根据 AGENTS.md 先读取 CODEX-HANDOFF.md。
+
+本包包含完整 Git 历史、源码、测试、文档和打包脚本；不包含模型、Python Runtime、用户图片、账号、凭证或 Codex 私有配置。
+
+开发目录通过 NTFS 目录联接复用基础安装中的 runtime 和 models，不会再复制约 8 GB 数据。不要删除基础安装，否则开发目录中的这两个联接会失效。
+
+自定义位置：
+Setup-SeedVR2-Dev.cmd -Destination "D:\SeedVR2 Development" -InstalledRoot "D:\Apps\SeedVR2 Upscaler"
+
+本包仅限本人或内部可信设备使用，不得公开上传；模型再分发许可仍需确认。

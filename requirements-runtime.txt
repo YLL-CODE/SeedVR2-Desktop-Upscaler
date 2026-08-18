@@ -1,0 +1,16 @@
+# Direct versions from the successful 2026-08-15 standalone validation environment.
+safetensors==0.6.2
+numpy==2.2.6
+tqdm==4.67.1
+psutil==7.1.0
+einops==0.8.1
+omegaconf==2.3.0
+diffusers==0.36.0
+transformers==4.57.3
+peft==0.17.1
+rotary-embedding-torch==0.8.9
+opencv-python==4.12.0.88
+gguf==0.17.1
+matplotlib==3.10.7
+Pillow==11.3.0
+PySide6-Essentials==6.11.1

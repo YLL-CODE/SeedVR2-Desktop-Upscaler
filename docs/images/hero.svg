@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">SeedVR2 Upscaler GUI</title>
+  <desc id="desc">本地、离线、NVIDIA GPU 图片放大工具</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3f2"/>
+      <stop offset="1" stop-color="#dce7eb"/>
+    </linearGradient>
+    <linearGradient id="feather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfff00"/>
+      <stop offset="1" stop-color="#9fd3f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#111412" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="30" fill="url(#bg)"/>
+  <circle cx="1240" cy="40" r="220" fill="#dfff00" opacity="0.14"/>
+  <circle cx="1320" cy="350" r="190" fill="#9fd3f2" opacity="0.22"/>
+
+  <g filter="url(#shadow)">
+    <rect x="42" y="42" width="1316" height="336" rx="22" fill="#222522"/>
+  </g>
+
+  <g transform="translate(95 90)">
+    <rect width="210" height="210" rx="32" fill="#303530" stroke="#4d554f" stroke-width="2"/>
+    <path d="M145 35c-43 10-81 42-96 82-9 25-8 46-5 57l30-30c9 8 21 11 34 7 29-9 49-44 49-92 0-10-4-18-12-24Z" fill="url(#feather)"/>
+    <path d="M49 176 142 69M72 143l-8-31m31 6-18-35m43 10-18-26m-27 76 31-7m-10-19 36-16" fill="none" stroke="#f5f8f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.94"/>
+    <path d="M160 22l5 13 13 5-13 5-5 13-5-13-13-5 13-5 5-13Z" fill="#dfff00"/>
+  </g>
+
+  <g font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif">
+    <text x="350" y="150" fill="#f5f8f7" font-size="58" font-weight="750" letter-spacing="-1">SeedVR2 Upscaler GUI</text>
+    <text x="354" y="202" fill="#b7c5c0" font-size="26">本地 · 离线 · NVIDIA GPU 图片放大</text>
+
+    <g transform="translate(350 246)" font-size="18" font-weight="700">
+      <rect width="184" height="48" rx="10" fill="#dfff00"/>
+      <text x="92" y="31" fill="#171a17" text-anchor="middle">2× / 4× / 6× / 8×</text>
+
+      <rect x="198" width="160" height="48" rx="10" fill="#9fd3f2"/>
+      <text x="278" y="31" fill="#171a17" text-anchor="middle">8–16GB VRAM</text>
+
+      <rect x="372" width="174" height="48" rx="10" fill="#303530" stroke="#59615b" stroke-width="2"/>
+      <text x="459" y="31" fill="#f5f8f7" text-anchor="middle">Windows 10 / 11</text>
+    </g>
+
+    <text x="350" y="338" fill="#84918b" font-size="17">SeedVR2 7B Sharp Q4 · AUTO 分块 · 64 px 渐变融合</text>
+  </g>
+</svg>

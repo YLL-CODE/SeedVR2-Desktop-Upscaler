@@ -1,0 +1,15 @@
+SeedVR2 Upscaler 1.1.0 — Windows x64 Installation
+
+1. Keep SeedVR2-Setup-1.1.0.exe and all accompanying .bin files in the same folder.
+2. Double-click SeedVR2-Setup-1.1.0.exe and select English or Simplified Chinese.
+3. Choose the destination folder. An SSD is recommended; keep at least 15 GB free.
+4. Optionally create Desktop and Start Menu shortcuts, then finish installation.
+5. The installer validates the models, bundled Runtime, and CUDA before completing.
+
+Requirements
+
+- Windows 10/11 x64
+- NVIDIA GPU with a working CUDA-capable display driver
+- 8–16 GB VRAM supported by the built-in automatic tile presets
+
+The app works fully offline. Images, models, and run logs stay on this computer.
