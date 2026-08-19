@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | [English](./README_EN.md)
 
-![SeedVR2 Upscaler GUI](./docs/images/hero.svg)
+![SeedVR2 Upscaler GUI](./docs/images/hero.png)
 
 [![Windows 10/11](https://img.shields.io/badge/Windows-10%20%2F%2011-9fd3f2?style=flat-square&labelColor=222522)](../../releases/latest)
 [![Release v1.1.0](https://img.shields.io/badge/release-v1.1.0-dfff00?style=flat-square&labelColor=222522)](../../releases/tag/v1.1.0)
